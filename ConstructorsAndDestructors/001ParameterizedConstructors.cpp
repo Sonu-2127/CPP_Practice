@@ -16,6 +16,8 @@ Sample :: Sample(int x, int y){
 }
 
 int main(void){
-    Sample S(10,20);
-    S.showdata();
+    Sample S1(10,20); // implicit constructor calling
+    S1.showdata();
+    Sample S2 = Sample(30,40); // explicit constructor calling
+    S2.showdata();
 }
