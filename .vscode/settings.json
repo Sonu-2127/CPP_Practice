@@ -2,5 +2,6 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/All Documents/C++ Programming/Git_Cpp_Programming/CPP_Practice/CPPUT_GoogleTest/googletest"
 }
