@@ -27,7 +27,7 @@ int main(void){
     cout << "Enter the values of m and n: " << endl;
     cin >> m >> n;
     Matrix A(m,n);
-    cout << "Enter atrix elements row by row" << endl;
+    cout << "Enter matrix elements row by row" << endl;
     int i,j,value;
     for(i = 0; i < m; i++){
         for(j = 0; j < n; j++){
