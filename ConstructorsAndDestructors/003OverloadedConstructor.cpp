@@ -2,6 +2,7 @@
 using namespace std;
 
 class Complex{
+    private:
     float x;
     float y;
     public:

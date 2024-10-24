@@ -2,6 +2,7 @@
 using namespace std;
 
 class Point{
+    private:
     int x_axis;
     int y_axis;
     public:
@@ -16,6 +17,10 @@ class Point{
     Point(Point &P){ // copy constructor
         x_axis = P.x_axis;
         y_axis = P.y_axis;
+    }
+    
+    ~Point(void){ // all variant destructor
+        cout << "Destructor Called" << endl;
     }
     void showdata(void){
         cout << "X-axis is: " << x_axis << " and Y-axis is " << y_axis << endl;

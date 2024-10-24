@@ -2,6 +2,7 @@
 using namespace std;
 
 class Sample{
+    private:
     int m,n;
     public:
     Sample(int,int);
