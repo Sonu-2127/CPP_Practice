@@ -44,7 +44,8 @@
         "numbers": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "sstream": "cpp"
     },
     "cmake.sourceDirectory": "C:/All Documents/C++ Programming/Git_Cpp_Programming/CPP_Practice/CPPUT_GoogleTest/googletest",
     "C_Cpp.errorSquiggles": "disabled"
