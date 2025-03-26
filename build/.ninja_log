@@ -1,0 +1,21 @@
+# ninja log v5
+39	580	7647125395908980	Projects/CMakeFiles/MyExecutable.dir/Source/main.cpp.obj	b3632d2d6e1da7bd
+28	592	7647125396031432	PracticeProblems/CMakeFiles/PracticeProblems.dir/Arrays/Source/FindLargestElement.cpp.obj	a0453a64dccd1ce6
+592	735	7647125397418980	PracticeProblems/libPracticeProblems.a	d390dc8a7063cd24
+735	954	7647125399500780	Projects/MyExecutable.exe	9741dc6323ce0ee7
+4	23	0	clean	d6542ab91c93f907
+28	606	7647132517625131	PracticeProblems/CMakeFiles/PracticeProblems.dir/Arrays/Source/FindLargestElement.cpp.obj	dc05f8be4a788542
+51	608	7647132517625131	Projects/CMakeFiles/MyExecutable.dir/Source/main.cpp.obj	1bc71a41ce187a0
+38	624	7647132517841651	PracticeProblems/CMakeFiles/PracticeProblems.dir/Pointers/Source/001TypesOfPointers.cpp.obj	f71e03ceab07d87d
+624	840	7647132519891351	PracticeProblems/libPracticeProblems.a	27cbcf5c6e90f7a8
+840	1011	7647132521624969	Projects/MyExecutable.exe	9741dc6323ce0ee7
+6	524	7647132837502520	PracticeProblems/CMakeFiles/PracticeProblems.dir/Arrays/Source/FindLargestElement.cpp.obj	dc05f8be4a788542
+19	538	7647132837502520	Projects/CMakeFiles/MyExecutable.dir/Source/main.cpp.obj	1bc71a41ce187a0
+525	685	7647132839172019	PracticeProblems/libPracticeProblems.a	27cbcf5c6e90f7a8
+685	892	7647132841101911	Projects/MyExecutable.exe	9741dc6323ce0ee7
+46	74	0	clean	d6542ab91c93f907
+28	620	7647132931163056	PracticeProblems/CMakeFiles/PracticeProblems.dir/Arrays/Source/FindLargestElement.cpp.obj	dc05f8be4a788542
+47	622	7647132931163056	Projects/CMakeFiles/MyExecutable.dir/Source/main.cpp.obj	1bc71a41ce187a0
+37	640	7647132931276554	PracticeProblems/CMakeFiles/PracticeProblems.dir/Pointers/Source/001TypesOfPointers.cpp.obj	f71e03ceab07d87d
+640	793	7647132932785356	PracticeProblems/libPracticeProblems.a	27cbcf5c6e90f7a8
+793	954	7647132934285943	Projects/MyExecutable.exe	9741dc6323ce0ee7

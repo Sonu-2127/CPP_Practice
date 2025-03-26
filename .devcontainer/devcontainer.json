@@ -1,0 +1,22 @@
+{
+    "name": "My Dev Container",
+    "dockerFile": "Dockerfile",
+    "runArgs": ["--privileged"], 
+    "mounts": ["type=bind,source=${localWorkspaceFolder},target=/workspace"],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "extensions": [
+                    "ms-vscode.cpptools",
+                    "ms-vscode.cmake-tools",
+                    "twxs.cmake",
+                    "eamodio.gitlens"
+                ]
+            }
+        }
+    },
+    "postCreateCommand": "cmake -B build && cmake --build build",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "vscode"
+}

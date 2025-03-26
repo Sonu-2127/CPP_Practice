@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../PracticeProblems/Arrays/Interface/FindLargestElement.h
+iostream
+-
+
+../Projects/Interface/main.h
+FindLargestElement.h
+../Projects/Interface/FindLargestElement.h
+
+/workspace/Projects/Source/main.cpp
+main.h
+/workspace/Projects/Source/main.h
+
