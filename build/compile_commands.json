@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/workspace/build/PracticeProblems",
+  "command": "/usr/bin/c++  -I/workspace/PracticeProblems/Arrays/Interface -I/workspace/PracticeProblems/Pointers/Interface -I/workspace/PracticeProblems -g -std=gnu++17 -o CMakeFiles/PracticeProblems.dir/Arrays/Source/FindLargestElement.cpp.o -c /workspace/PracticeProblems/Arrays/Source/FindLargestElement.cpp",
+  "file": "/workspace/PracticeProblems/Arrays/Source/FindLargestElement.cpp"
+},
+{
+  "directory": "/workspace/build/PracticeProblems",
+  "command": "/usr/bin/c++  -I/workspace/PracticeProblems/Arrays/Interface -I/workspace/PracticeProblems/Pointers/Interface -I/workspace/PracticeProblems -g -std=gnu++17 -o CMakeFiles/PracticeProblems.dir/Pointers/Source/001TypesOfPointers.cpp.o -c /workspace/PracticeProblems/Pointers/Source/001TypesOfPointers.cpp",
+  "file": "/workspace/PracticeProblems/Pointers/Source/001TypesOfPointers.cpp"
+},
+{
+  "directory": "/workspace/build/Projects",
+  "command": "/usr/bin/c++  -I/workspace/Projects/Interface -I/workspace/PracticeProblems/Arrays/Interface -I/workspace/PracticeProblems/Pointers/Interface -I/workspace/PracticeProblems -g -std=gnu++17 -o CMakeFiles/MyExecutable.dir/Source/main.cpp.o -c /workspace/Projects/Source/main.cpp",
+  "file": "/workspace/Projects/Source/main.cpp"
+}
+]

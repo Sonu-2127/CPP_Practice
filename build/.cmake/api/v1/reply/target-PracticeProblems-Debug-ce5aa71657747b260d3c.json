@@ -1,0 +1,116 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "PracticeProblems/libPracticeProblems.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"PracticeProblems/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/workspace/PracticeProblems/Arrays/Interface"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/workspace/PracticeProblems/Pointers/Interface"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/workspace/PracticeProblems"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "PracticeProblems::@9eb094a26cb2dc9cf55f",
+	"name" : "PracticeProblems",
+	"nameOnDisk" : "libPracticeProblems.a",
+	"paths" : 
+	{
+		"build" : "PracticeProblems",
+		"source" : "PracticeProblems"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "PracticeProblems/Arrays/Source/FindLargestElement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "PracticeProblems/Pointers/Source/001TypesOfPointers.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
