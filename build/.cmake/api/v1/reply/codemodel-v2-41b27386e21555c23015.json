@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "PracticeProblems",
+					"jsonFile" : "directory-PracticeProblems-Debug-a428f1517a3aa9fc7ccd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "PracticeProblems",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Projects",
+					"jsonFile" : "directory-Projects-Debug-4e5c604529c67e69a2d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Projects",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "CPP_PRACTICE",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "MyExecutable::@32154c34e597e0e5d7d3",
+					"jsonFile" : "target-MyExecutable-Debug-326ffebdeb9bbf4e22fc.json",
+					"name" : "MyExecutable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "PracticeProblems::@9eb094a26cb2dc9cf55f",
+					"jsonFile" : "target-PracticeProblems-Debug-f8023bb1aa5de8f09c6d.json",
+					"name" : "PracticeProblems",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build",
+		"source" : "/workspace"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

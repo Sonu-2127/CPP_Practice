@@ -9,7 +9,7 @@
         {
             "name": "PracticeProblems",
             "description": "Build and Compile",
-            "generator": "MinGW Makefiles",
+            "generator": "Unix Makefiles",
             "binaryDir": "${sourceDir}/build",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Debug"
@@ -18,8 +18,8 @@
     ],
     "buildPresets": [
         {
-            "name": "default_build",
-            "configurePreset": "default"
+            "name": "build_PracticeProblems",
+            "configurePreset": "PracticeProblems"
         }
     ],
     "testPresets": []
