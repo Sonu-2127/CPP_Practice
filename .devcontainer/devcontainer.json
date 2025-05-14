@@ -1,0 +1,25 @@
+{
+  "name": "My Dev Container",
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--privileged"],
+
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-vscode.cmake-tools",
+          "twxs.cmake",
+          "eamodio.gitlens"
+        ]
+      }
+    }
+  },
+
+  "postCreateCommand": "rm -rf build && cmake -S . -B build -G Ninja && cmake --build build",
+  "remoteUser": "vscode"
+}

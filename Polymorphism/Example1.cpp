@@ -31,14 +31,3 @@ class Cat : public Animal
     }
 
 };
-
-int main()
-{
-    Animal obj3;
-    obj3.animalSound();
-    Dog obj1;
-    obj1.animalSound();
-    Cat obj2;
-    obj2.animalSound();
-    return 0;
-}
